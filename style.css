@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    color: rgb(190, 76, 190);
+    font-family: cursive;
+}
+.container{
+    text-align: center;
+    width: 400px;
+position: relative;
+}
+.counter{
+    font-size: 30px;
+}
+.loading-bar-back{
+    position: absolute;
+    height: 8px;
+    background-color: rgb(191, 191, 218);
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+.loading-bar-front{
+    position: absolute;
+    height: 8px;
+    background-color: rgb(235, 96, 41);
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+
+}
